@@ -6,8 +6,13 @@ const output = {
     },    
     login: (req, res) => {
         res.render("home/login");
-    }
-};
+    },
+    skydash: (req, res) => {
+        //res.sendFile(__dirname+"/../views/skydash/index.html");
+        res.render("skydash/index");
+    },
+}
+
 
 const users = {
     userid: ["danieahn", "jiyul", "seoyul", "jiya"],
