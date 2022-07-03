@@ -7,7 +7,7 @@
     "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "danieahn",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
@@ -16,5 +16,13 @@
   "bin": {
     "nodejs_test": "bin/www.js"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieahn/nodejs_test_prj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danieahn/nodejs_test_prj/issues"
+  },
+  "homepage": "https://github.com/danieahn/nodejs_test_prj#readme"
 }
