@@ -20,5 +20,6 @@ function login_ftn() {
             "content-Type": "application/json",
         },
         body: JSON.stringify(req),
-    });
+    }).then((res) => console.log(res.json()))
+      .then((res) => console.log(res));
 }

@@ -7,15 +7,20 @@ const app = express();
 const PORT = 3000;
 
 // set app
-app.set("views", "./src/views");
+app.set("views", "./views");
 app.set("view engine", "ejs");
-app.use(express.static(`${__dirname}/src/public`));
+app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-// set routing
-const home = require("./src/routes/home");
+// set route
+const home = require("./routes/home");
 app.use("/", home);
+
+// start server
+app.listen(PORT, function(){
+    console.log("Start http server!");
+});
 
 module.exports = app;
 

@@ -4,7 +4,7 @@
   "description": "nodejs web server test project",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www.js",
+    "start": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "danieahn",
